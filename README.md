@@ -342,9 +342,9 @@ Os campos devem existir no cartão conforme ilustrado na imagem abaixo.
 
 - Será validado se `MovieDetails` exibe o título, o subtítulo, a sinopse, a imagem e o gênero do filme
 
-- Será validado se `MovieDetails` contém um botão com o texto "VOLTAR" que redireciona para a página inicial
+- Será validado se `MovieDetails` contém um link com o texto "VOLTAR" que redireciona para a página inicial
 
-- Será validado se `MovieDetails` contém um botão com o texto "EDITAR" que redireciona para a página de edição de filme
+- Será validado se `MovieDetails` contém um link com o texto "EDITAR" que redireciona para a página de edição de filme
 
 ![image](card-details.png)
 
