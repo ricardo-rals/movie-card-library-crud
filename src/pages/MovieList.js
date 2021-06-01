@@ -10,20 +10,20 @@ class MovieList extends Component {
 
     this.state = {
       movies: [],
-      load: false,
+      load: true,
     };
   }
 
   componentDidMount() {
     movieAPI.getMovies().then((movies) => {
-      const load = true;
+      const load = false;
       this.setState({ movies, load });
     });
   }
 
   render() {
     const { movies, load } = this.state;
-    if (!load) {
+    if (load) {
       return <Loading />;
     }
     return (
